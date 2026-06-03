@@ -1,0 +1,7 @@
+aws_region = "eu-north-1"
+
+otel_exporter_otlp_protocol = "http/protobuf"
+
+otel_exporter_otlp_endpoint = "https://otlp-gateway-prod-REGION.grafana.net/otlp"
+
+otel_exporter_otlp_headers = "Authorization=Basic YOUR_GRAFANA_CLOUD_OTLP_TOKEN"
