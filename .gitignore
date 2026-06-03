@@ -1,0 +1,14 @@
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+
+bootstrap
+lambda.zip
+lambda5.zip
+
+response.json
+response-*.json
+
+.DS_Store
