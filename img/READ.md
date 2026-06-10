@@ -16,7 +16,7 @@ Shows the total number of successful Lambda executions.
 
 Shows the total number of Lambda errors.
 
-### 04-error-rate.png
+### 04-error-rate-%.png
 
 Shows the percentage of failed Lambda executions compared to the total number of invocations.
 
@@ -28,10 +28,6 @@ Shows the number of Lambda cold starts.
 
 Shows the amount of memory configured for the Lambda function. In this project, the Lambda function is configured with 128 MB of memory, and this value is sent to Grafana as a separate metric.
 
-### 07-payload-size.png
+### 07-processed_records_rate.png
 
-Shows the average size of the input payload sent to the Lambda function during test invocations.
-
-### 08-external-api-latency.png
-
-Shows simulated external API latency.
+Shows how many records are processed per second/minute
